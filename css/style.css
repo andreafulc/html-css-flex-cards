@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* word stlye */
+/* word style */
 
 h2{
    text-align: center;
@@ -58,6 +58,7 @@ body {
   display: flex;
   align-items: center;
   text-align: left;
+  
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* I'm lovin it */
 }
 
@@ -74,3 +75,16 @@ body {
   color: #6ecbdd;
 }
 
+
+@media screen and (min-width: 600px) {
+  .col {
+    width: calc(100% / 2);
+  }
+  
+}
+
+@media screen and (min-width: 900px) {
+  .col {
+    width: calc(100% / 3);
+  }
+}
