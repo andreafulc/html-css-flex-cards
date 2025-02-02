@@ -1,0 +1,69 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+   text-align: center;
+   color: #e53170;
+   padding: 20px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: smaller;
+}
+
+
+body {
+  font-family: "Fredoka", serif;
+}
+/* layout */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+
+
+  /* debug */
+  border: 2px solid red;
+  min-height: 300px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  width: calc(100% / 1);
+  max-width: 350px;
+  margin: 15px;
+  background-color: #020202;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* I'm lovin it */
+}
+
+.user-avatar {
+  width: 100px;
+  margin: 0;
+}
+
+.user {
+  padding: 10px 20px;
+}
+
+.mail {
+  color: #6ecbdd;
+}
