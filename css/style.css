@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* word stlye */
+
 h2{
    text-align: center;
    color: #e53170;
@@ -21,20 +23,24 @@ p {
     font-size: smaller;
 }
 
+.tale {
+  font-size: smaller;
+  font-weight: 400;
+  padding: 20px;
+  text-align: center;
+}
+
+/* font */
 
 body {
   font-family: "Fredoka", serif;
 }
+
 /* layout */
 
 .container {
   width: 80%;
   margin: 0 auto;
-
-
-  /* debug */
-  border: 2px solid red;
-  min-height: 300px;
 }
 
 .row {
@@ -67,3 +73,4 @@ body {
 .mail {
   color: #6ecbdd;
 }
+
