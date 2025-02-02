@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* word style */
 
 h2{
@@ -30,6 +31,11 @@ p {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* font */
 
 body {
@@ -52,14 +58,14 @@ body {
 .col {
   width: calc(100% / 1);
   max-width: 350px;
+  min-width: 350px;
   margin: 15px;
   background-color: #020202;
   color: white;
   display: flex;
   align-items: center;
   text-align: left;
-  
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* I'm lovin it */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .user-avatar {
@@ -79,8 +85,7 @@ body {
 @media screen and (min-width: 600px) {
   .col {
     width: calc(100% / 2);
-  }
-  
+  } 
 }
 
 @media screen and (min-width: 900px) {
