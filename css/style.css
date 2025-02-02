@@ -11,6 +11,7 @@
 h2{
    text-align: center;
    color: #e53170;
+   font-size: 30px;
    padding: 20px;
 }
 
@@ -69,12 +70,12 @@ body {
 }
 
 .user-avatar {
-  width: 100px;
+  width: 90px;
   margin: 0;
 }
 
 .user {
-  padding: 10px 20px;
+  padding: 0px 10px;
 }
 
 .mail {
